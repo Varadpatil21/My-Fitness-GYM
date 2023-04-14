@@ -1,0 +1,103 @@
+
+body{
+    color:white; 
+    background: url('https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149__340.jpg') no-repeat center center fixed;
+    background-size:cover;
+    height: 100px;
+    overflow:hidden;
+    font-family: cursive;
+
+   
+}
+.left{
+    position:absolute;
+    left: 35px;
+    top:20px;
+    display: inline-block;
+    /* border:1px solid rgb(164, 238, 130); */
+}
+.mid{
+    display: block;
+    /* border:1px solid rgb(222, 238, 130); */
+    width:51%;
+    margin:20px auto;
+    background-color:black;
+    border-radius: 5px;
+    
+    
+}
+.right{
+    display: inline-block;
+    position:absolute;
+    right: 35px;
+    top:20px;
+    /* border:1px solid rgb(191, 130, 238); */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display:inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color:rgb(10, 255, 222);
+    text-decoration: none;
+    padding: 13px 26px;
+    text-decoration: blue;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color:goldenrod;
+}
+.left img{
+    width: 94px;
+    
+}
+.bt{
+    font-family: 'Mynerve', cursive;
+    margin:0px 9px;
+    color: white;
+    background-color: black;
+    padding: 12px 12px;
+    border:2px solid gold;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bt:hover{
+    background-color: rgb(226, 186, 186);
+}
+.container{
+    margin:114px -5px;
+    background-color: black;
+    width: 33%;
+    border: 2px solid crimson;
+    border-radius: 10px;
+}
+.container form button{
+    cursor: pointer;
+    width: 33%;
+    display: block;
+    margin:26px  auto;
+    padding: 8px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+.container form button:hover{
+    background-color: greenyellow;
+}
+.formg input{
+    text-align: center;
+    display:block;
+    width:340px;
+    padding:10px 26px;
+    border:2px solid black;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.head h1{
+    color: springgreen;
+    margin: 45px auto;
+}
